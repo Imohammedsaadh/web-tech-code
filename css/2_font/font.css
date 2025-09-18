@@ -1,0 +1,21 @@
+header{
+    background-color: chocolate;
+    height: 300px;
+    
+}
+button{
+    background-color: aquamarine;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
