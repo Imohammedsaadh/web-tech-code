@@ -1,0 +1,28 @@
+/* 1 tagname selector */
+header{
+    background-color: whitesmoke;
+    height: 450px;
+}
+h1{
+    color: azure;
+}
+/* 2 id selector  */
+#saad{
+    color: aquamarine;
+}
+/* 3.class selctor for id. */
+.para{
+    background-color: aqua;
+    font-size: 27px;
+    font-style: italic;
+}
+/* 4. unversal selector  */
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+/*  group selector  */
+h2,#saad, .para {
+    text-align: center;
+}
+

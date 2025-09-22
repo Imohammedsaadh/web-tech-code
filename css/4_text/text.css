@@ -1,0 +1,23 @@
+header{
+    background-color:aquamarine ;
+}
+#topic{
+    text-align: center;
+    color:violet;
+  text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing:20px;
+    text-shadow: 2px 3px 2px black;
+   
+
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 30px;
+    text-indent: 200px;
+    line-height: 20px;
+ 
+}
+
