@@ -1,0 +1,32 @@
+/* section{
+    display: flex;
+} */
+/* h1{
+    background-color: yellow;
+    width: 200px;
+     display: inline; 
+     display: none;
+}
+a{
+  
+    background-color: blanchedalmond;
+    width: 300px;
+     display: block; 
+     display: inline-block;  
+}
+button{
+    background-color: blueviolet;
+    width: 100px;
+} */
+div{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+div>h1{
+    background-color: aqua;
+    /* display: inline; */
+    color: aliceblue;
+
+}
