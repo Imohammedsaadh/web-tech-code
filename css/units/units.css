@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:palevioletred;
+    height: 100vh;
+        width: 90vh;
+}
+.outer{
+    height: 600px;
+    width: 900px;
+    background-color: blanchedalmond;
+}
+.outer>.inner{
+    /* height: 200px;
+    width: 300px; */
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+}
