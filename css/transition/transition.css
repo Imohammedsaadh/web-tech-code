@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+background-color: aqua;
+justify-content: center;
+align-items: center;
+
+
+
+height: 250px;
+width: 250px;
+transition: all 2s ease-in;
+
+
+
+}
+.box>h1{
+    color: aliceblue;
+    margin: 10px;
+    
+
+}
+.outer{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+
+}
+ .outer>.box:hover{
+  
+    border-radius: 50%;
+    background-color: black;
+
+}
+.box>.box2{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    display: flex;
+    
+}
+.box2:hover{
+    border-radius: 10px;
+    background-color: brown;
+}
