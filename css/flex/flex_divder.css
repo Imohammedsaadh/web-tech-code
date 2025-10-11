@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+}
+.outer>.left{
+    background-color: brown;
+    flex-basis: 45%;
+}
+.outer>.right{
+    background-color:peachpuff;
+    flex-basis: 55%;
+}

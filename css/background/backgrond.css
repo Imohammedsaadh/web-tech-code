@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outer>.inner{
+    height: 500px;
+    width: 800px;
+    background-color: black;
+    background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5797243.jpg&sp=1760087508T0150759f18e60d0f078e73e2b35c75c4c863a6f8bfd05b6a02405c4d4db8d64f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top;
+    background-position: bottom; */
+}
+.outer{
+background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.ISiGkl0e1MV5dm_tQVHL6AHaEK%3Fcb%3D12%26pid%3DApi&sp=1760087984Tedc0f2549598544efb9befcb36c5ddf6ac9089d3b1aa146caff649cbc967451a);
+background-repeat: no-repeat;
+background-size: cover;
+}

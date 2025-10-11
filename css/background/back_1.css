@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+
+}
+#box1{
+    background-image: url("https://images.wallpapersden.com/image/download/naruto-uzumaki-intense-look_bmdlaG6UmZqaraWkpJRmbmdlrWZlZms.jpg");
+    background-size: cover;
+}
+#box1>h1{
+    color: white;
+    text-transform: uppercase;
+
+
+}
+#box2{
+    background-image: url("https://wallpapers.com/images/hd/black-clover-anime-wallpaper-5rydlo4vdmio4dqi.jpg");
+    background-size: cover;
+}
+#box2>h1{
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+#box3{
+    background-image: url("https://media.aintitcool.com/media/_versions/2015/horrorella/death_note_huge.jpg");
+    background-size: cover;
+}
+#box3>h1{
+    color: white;
+    text-transform: uppercase;
+    
+
+}
+#box4{
+    background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F8961737.jpg&sp=1760150612T90fce8ef36def85f02b9117ad469bb4a0d80c2650e714de33cb4cf8fc61372a7");
+    background-size: cover;
+}
+#box4>h1{
+    color: white;
+    text-transform: uppercase;
+    
+
+}
