@@ -5,13 +5,99 @@
 }
 .outer{
     height: 100vh;
+    background-color: yellow;
     display: flex;
+    
 }
 .outer>.left{
-    background-color: brown;
-    flex-basis: 45%;
+flex-basis: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 .outer>.right{
-    background-color:peachpuff;
-    flex-basis: 55%;
+    background-color:whitesmoke;
+    flex-basis: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    
+}
+.right>h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 1px 2px 2px black;
+}
+.form{
+    background-color: yellow;
+    border-radius: 10px;
+    height:350px;
+    width: 400px;
+    padding: 20px;
+    border:2px solid black;
+}
+.form>form>input{
+    /* display: block; */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(15, 15, 15);
+    outline: none;
+    border-radius: 20px;
+
+}
+form>input:focus{
+    border: 3px solid rgb(11, 11, 10);
+}
+.form>form>label{
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    padding:10px ;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(238, 228, 228);
+    border: none ;
+    text-shadow: 1px 2px 2px rgb(245, 247, 238);
+    cursor: pointer;
+    border: 2px solid ;
+    margin-bottom: 3px;
+    transition: all 0.4 ease-in;
+    border-radius: 20px;
+    color: white;
+
+}
+.footer>p{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.footer>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 13);
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    margin-left: 110px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
