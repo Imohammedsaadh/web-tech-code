@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,grey,black);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+     overflow-x: scroll;
+     gap: 20px;
+   
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    
+}
+
+.outer>img:hover{
+    transform: scale(1.50);
+    cursor: pointer;
+ 
+}
