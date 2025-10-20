@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 500vh;
+    background-image: linear-gradient(black,rgb(2, 43, 2));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.outer>.card{
+    height: 200px;
+    width: 300px;
+    border: 3px solid rgb(27, 11, 11);
+    animation: 2s ease-in infinite alternate;
+    border-radius: 10%;
+
+}
+.card>.box{
+    height: 70px;
+    width: 100px;
+    border: 3px solid rgba(46, 197, 139, 0.693);
+    background-color: rgb(75, 137, 196);
+    animation: move 1s ease-in infinite alternate;
+    border-radius: 20%;
+    
+}
+@keyframes move{
+    from{
+
+    }
+    to{
+        transform: translate(200px);
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+}
+.card>.box0{
+    height: 70px;
+    margin-top: 48px ;
+    width: 100px;
+    border: 3px solid rgb(107, 210, 209);
+    background-color: rgb(76, 81, 211);
+    animation: move 1s ease-in infinite alternate-reverse;
+    border-radius: 20%;
+}
+@keyframes move{
+    from{
+    
+
+    }
+    to{
+         transform: translate(200px);
+        border-radius: 50%;
+        background-color: rgb(38, 141, 107);
+    }
+}
+.card2{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(1, 51, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: rotate 3s linear infinite; */
+    border-radius: 20%;
+}
+.card2 > .box2{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(8, 8, 8);
+
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.card3{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    animation: rotate 1s linear  infinite;
+}
+.card3>box3{
+height: 100px;
+width: 100px;
+border-top: 3px solid greenyellow;
+border-radius: 50%;
+
+}
+.card4{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
+    animation: rotate 1s linear infinite ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card4 > .box4{
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(48, 139, 121);
+    border-radius: 50%;     
+}
+.card5{
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid white; */
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card5 > .c{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    animation: up_down 2s ease-in infinite alternate;
+}
+
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: blue;
+    animation-delay: 0.1s;
+}
+#c3{
+    background-color: green;
+    animation-delay: 0.2s;
+}
+#c4{
+    background-color: black;
+    animation-delay: 0.3s;
+}
+#c5{
+    background-color: brown;
+    animation-delay: 0.4s;
+}
+
+
+
+@keyframes up_down {
+    
+    from{
+       transform: translateY(-70px);
+    }
+    to{
+        
+        transform: translateY(70px);
+    }
+}
+
+
+.box9{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    animation: changeColor 1s linear infinite alternate;
+}
+
+
+@keyframes changeColor {
+    
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: white;
+        border-radius: 50%;
+    }
+}
