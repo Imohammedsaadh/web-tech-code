@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, white ,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+
+}
+h1{
+    color: black;
+    font-size:24px ;
+    letter-spacing: 2px;
+
+}
+.animec{
+    height: 490px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+}
+.anime{
+    height:70% ;
+    flex: 1;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.anime>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: grayscale(1);
+    transition: 0.4s ease;
+}
+.anime:hover{
+    flex: 20;
+}
+.anime:hover>img{
+    filter: grayscale(0);
+}
