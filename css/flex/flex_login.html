@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>landing_page</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .o{
+      height: 100vh;
+      position: relative;
+    }
+
+      .u{
+        height: 50vh;
+        background-color: #e9e7ed;
+    
+       
+      }
+      .l{
+        height: 50vh;
+        background-color: rgba(17, 17, 17, 0.975);
+
+        justify-content: center;
+        
+      }
+      .in{
+        display: flex;
+        background-image: linear-gradient(#B39DDB,rgb(250, 240, 240));
+        height: 60%;
+        width: 60%;
+              top:50%;
+             left:50%;
+             position: absolute;
+               transform: translate(-50%,-50%);
+      }
+      .in>.r{
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(251, 246, 246);
+        gap: 25px;
+
+      }
+      .in>.left{
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+        .form>label{
+          display: flex;
+        width: 100px;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+        
+      }
+      .form>input{
+           display: flex;
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            background-color: #ccc;
+            border-radius: 10px;
+
+
+      }
+      button{
+        background-color: blueviolet;
+        width: 300px;
+        height:50px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.1s;
+        
+      }
+      /* button:hover{
+        background-color: #B39DDB;
+      } */
+      button:active{
+        transform: translateY(4px);
+      }
+      .left>img{
+        height: 350px;
+      }
+      .left>h1{
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1.0px;
+        /* background-color: aquamarine; */
+        
+      }
+      
+  </style>
+</head>
+<body>
+<div class="o">
+  <div class="u"></div>
+  <div class="l"></div>
+  <div class="in">
+    <div class="r">
+      <h1>Login</h1>
+      <form action="" class="form">
+        <label for="">email/username</label>
+        <input type="text">
+        <label for="">password</label>
+        <input type="password">
+      </form>
+      <button>Login</button>
+    </div>
+    <div class="left">
+      <img src="./proxy-image-removebg-preview.png" alt="">
+      <h1>create your porject program </h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, omnis.</p>
+    </div>
+    <!-- <div class="line">
+      
+    </div> -->
+  </div>
+</div>
+
+  
+</body>
+</html>
