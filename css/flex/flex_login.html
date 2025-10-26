@@ -17,13 +17,13 @@
 
       .u{
         height: 50vh;
-        background-color: #e9e7ed;
-    
-       
+        /* background-color: #e9e7ed; */
+        background-image:linear-gradient(rgba(244, 243, 246, 0.975),rgba(162, 82, 237, 0.975));   
       }
       .l{
         height: 50vh;
-        background-color: rgba(17, 17, 17, 0.975);
+        /* background-color: rgba(162, 82, 237, 0.975); */
+        background-image: linear-gradient(rgba(162, 82, 237, 0.975),white);
 
         justify-content: center;
         
@@ -36,7 +36,8 @@
               top:50%;
              left:50%;
              position: absolute;
-               transform: translate(-50%,-50%);
+             transform: translate(-50%,-50%);
+             border-radius: 20px;
       }
       .in>.r{
         flex-basis: 50%;
@@ -44,8 +45,11 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(251, 246, 246);
+        /* background-color: rgb(251, 246, 246); */
+       background-image: url("https://i.pinimg.com/originals/b9/c8/f8/b9c8f893c9a782033a01f47e0c0b1d6e.jpg");
+       background-size: cover;
         gap: 25px;
+        border-radius: 20px;
 
       }
       .in>.left{
@@ -71,10 +75,8 @@
             padding: 10px;
             border: 1px solid #ccc;
             margin-bottom: 10px;
-            background-color: #ccc;
+            background-color: #cccccc;
             border-radius: 10px;
-
-
       }
       button{
         background-color: blueviolet;
@@ -84,13 +86,23 @@
         border: none;
         cursor: pointer;
         transition: all 0.1s;
-        
+        font-size: 18px;
+        font-weight: bold;
       }
       /* button:hover{
         background-color: #B39DDB;
       } */
       button:active{
         transform: translateY(4px);
+      }
+      .r>.fp>a{
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 1.0px;
+        text-transform: capitalize;
+        cursor: pointer;
+        /* background-color: black; */
+        text-decoration: none;
       }
       .left>img{
         height: 350px;
@@ -120,6 +132,9 @@
         <input type="password">
       </form>
       <button>Login</button>
+      <div class="fp">
+        <a href="">Forgot-Password</a>
+      </div>
     </div>
     <div class="left">
       <img src="./proxy-image-removebg-preview.png" alt="">
@@ -127,8 +142,7 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, omnis.</p>
     </div>
     <!-- <div class="line">
-      
-    </div> -->
+       </div> -->
   </div>
 </div>
 
