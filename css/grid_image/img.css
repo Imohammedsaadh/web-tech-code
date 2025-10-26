@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+  
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+ 
+    align-content: center;
+    /* background-color: black; */
+
+}
+.outer>.inner{
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 100px;
+    gap: 20px;
+    justify-content: center;
+   
+    align-content: center;
+    color: white;
+    /* background-color: black; */
+}
+.outer>.inner>.div{
+    /* border: 5px solid rgb(22, 22, 22); */
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.5s ease-in ;
+    background-position: top;
+
+}
+.inner>#box1{
+    grid-row: span 2;
+    background-image:url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.27qZJLSoIulU-7LMsHe1_QHaLG%3Fpid%3DApi&sp=1761299755T446be108394e2fe96ccdc6db6c8edd80e58efd08917477f53a52c412b9b443a8") ;
+    background-size: cover;
+    
+}
+.inner>div:hover{
+    background-position-y: center;
+}
+.inner>#box4{
+    grid-column: span 2;
+}
+

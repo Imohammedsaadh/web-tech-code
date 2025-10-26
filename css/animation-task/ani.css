@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-image: linear-gradient(yellow, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outer>.inner{
+    height: 50%;
+    width: 80%;
+    /* background-color: brown; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    animation: up-down 3s ease-in infinite alternate;
+
+
+}
+h1{
+    text-shadow: 4px 4px 4px white;
+}
+@keyframes up-down {
+    from{
+        transform: translate(0,-80px);
+    }
+    to{
+        transform: translate(0,80px);
+    }
+}
+
+
+.inner>h1:nth-child(2){
+    animation-delay:0.1s ;
+}
