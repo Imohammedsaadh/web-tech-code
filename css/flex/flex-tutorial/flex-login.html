@@ -68,11 +68,14 @@
             font-size: 18px;
             color: #fff;
         }
-        .con .remember{
+        .con .remember {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             margin-top: -16px 0 16px;
+            gap: 20px;
+            
+            
         }
         .remember label input{
             accent-color: #fff;
@@ -94,6 +97,7 @@
         height: 100%;
         border: 2px solid rgba(255, 255, 255, 0.2);
         font-size: 16px;
+        padding: 20px 45px 20px 20px;
       }
       .button a{
         color: #fff;
@@ -111,10 +115,16 @@
 
       }
       input[type="checkbox"]{
-        display: flex;
-        width: 15px;
+        display: inline-block;
+        width: 10px;
         height: 15px;
         cursor: pointer;
+
+
+      }
+      input::-ms-reveal
+      input::-ms-clear{
+        display: none;
       }
       input::-webkit-credentials-auto-fill-button,
       input::-webkit-clear-button,
@@ -156,6 +166,15 @@
       .btn:active{
         transform:translateY(4px);
       }
+      .remember label{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+         margin-top: -16px 0 16px;
+        margin-top: 20px;
+
+      }
 
 
 
@@ -173,7 +192,7 @@
             <input type="password" placeholder="password" required autocomplete="new-password">
             <i class="ri-eye-off-fill toggle-password" id="toggle-password"></i>
             <div class="remember">
-           <label> <input type="checkbox">  </label>
+           <label> <input type="checkbox">Remeber me </label>
            <a href="#">Forgot-Password?</a>
             </div>
             <button type="submit" class="btn">Login</button>
