@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .o{
+      background-color:yellow;
+      height: 100vh;
+      display: flex;
+    }
+    .o>.l{
+       background-color:whitesmoke;
+    flex-basis: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    
+    }
+   .o>.r{
+    flex-basis: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    }
+    form{
+      flex-direction: column;
+      display: flex; 
+       background-color: yellow;
+    border-radius: 10px;
+    height:350px;
+    width: 400px;
+    padding: 20px;
+    border:2px solid black;
+    text-transform: capitalize;
+    font-size: 17px;  
+    font-weight: bold;
+}
+.l input{
+   width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(15, 15, 15);
+    outline: none;
+    border-radius: 20px;
+
+}
+.l button{
+   width: 100%;
+    padding:10px ;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(238, 228, 228);
+    border: none ;
+    text-shadow: 1px 2px 2px rgb(245, 247, 238);
+    cursor: pointer;
+    border: 2px solid ;
+    margin-bottom: 3px;
+    transition: all 0.4 ease-in;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.1s;
+}
+.l button:active{
+  transform: translateY(4px);
+
+}
+
+.footer>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 13);
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="o">
+    <div class="l">
+ <form action="">
+  <h1>login </h1>
+      <label for="">email-id :</label>
+      <input type="text" placeholder="Enter your Email-Id">
+      <label for="">password :</label>
+      <input type="password" placeholder="Enter your Password ">
+      <button>login</button>
+      <div class="footer">
+                    <a href="./flex_divider.html">Register</a>
+                </div>
+
+    </form>
+    
+    </div>
+    
+    
+
+
+    <div class="r"></div>
+   
+  </div>
+  
+</body>
+</html>

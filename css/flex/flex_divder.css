@@ -79,13 +79,14 @@ button{
     transition: all 0.4 ease-in;
     border-radius: 20px;
     color: white;
+    transition: all 0.1s;
 
 }
-.footer>p{
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: capitalize;
+button:active{
+    transform: translateY(4px);
+
 }
+
 .footer>a{
     text-decoration: none;
     font-size: 18px;
@@ -93,7 +94,7 @@ button{
     color: rgb(12, 12, 13);
     text-transform: capitalize;
     letter-spacing: 1.1px;
-    margin-left: 110px;
+   margin-top: 5px;
 
 }
 .footer{
